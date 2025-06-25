@@ -1,59 +1,76 @@
-# TemperatureConverter
+# 🌡️ Temperature Converter App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.3.
+A simple and interactive Angular application to convert temperature values between **Celsius** and **Fahrenheit** in real time.
 
-## Development server
+---
 
-To start a local development server, run:
+## 📸 Screenshots
+
+### 💠 Explorer Files View
+<img src="/src/screenshots/FileManager.png" alt="Temperature Converter" width="200"/>
+
+### 💠 Desktop View
+<img src="src/screenshots/output.png" alt="Temperature Converter - Conversion Output" />
+
+---
+
+## ✨ Features
+
+✅ Beautiful UI with a modern gradient card layout  
+✅ Convert Celsius to Fahrenheit  
+✅ Convert Fahrenheit to Celsius  
+✅ Keyboard shortcut: press `Enter` to convert  
+✅ Responsive and centered layout  
+✅ Input sanitization: No default 0, no spinner arrows  
+✅ Clean code with Angular best practices
+
+---
+
+## 🛠️ Tech Stack
+
+- Angular (v16+)
+- TypeScript
+- HTML5
+- CSS3 (with Linear Gradient and Flexbox)
+- FormsModule (for two-way data binding)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/temperature-converter.git
+cd temperature-converter
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app locally
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Visit `http://localhost:4200` to view it in your browser.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧠 How It Works
 
-```bash
-ng generate component component-name
-```
+- Users can enter a temperature value in either Celsius or Fahrenheit.
+- On clicking the button or pressing Enter, the app converts and displays the result.
+- The app uses `[(ngModel)]` for two-way binding and `FormsModule` for data input.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🌐 Connect
 
-## Building
+- GitHub: [@Pavan-441](https://github.com/Pavan-441)
+- LinkedIn: [Pavan-Kumar-Pedamallu](https://linkedin.com/in/Pavan-Kumar-Pedamallu)
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
