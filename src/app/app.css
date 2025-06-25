@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: aquamarine;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-top: 40px;
+  background: linear-gradient(to right top, #89f7fe, #66a6ff);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.main {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.card {
+  padding: 0;
+  border-radius: 6px;
+  color: white;
+}
+
+input {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px 0;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-top: 5px;
+  background-color: #004466;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0077aa;
+}
+
+.celsius,
+.fahren {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
